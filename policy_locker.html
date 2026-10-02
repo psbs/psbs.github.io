@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo Vault privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1B1B21; --muted: #46464F; --bg: #FAF9FC; --accent: #3F5289; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #E3E2E9; --muted: #C6C5D0; --bg: #0F1115; --accent: #B4C5FF; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Photo Vault privacy policy</h1>
+<p class="meta">Effective 1 October 2026 · App package <code>com.quietvault.app</code></p>
+
+<p>Photo Vault is an offline Android app for keeping your own photos and videos private on your phone. This policy explains what the app does with your information. The short version: <strong>it doesn't collect, send or share any of it.</strong></p>
+
+<h2>Information the app collects</h2>
+<p>None. Photo Vault has no account, no sign-up, no advertising, no analytics, no crash reporting and no third-party tracking code. The app doesn't request the Android Internet permission, so it can't send anything from your device.</p>
+
+<h2>Information stored on your device</h2>
+<p>To work, the app stores the following only in its private storage on your phone:</p>
+<ul>
+  <li>the photos and videos you choose to import, encrypted with a key kept in Android Keystore;</li>
+  <li>encrypted details about those items, such as file names, album names, favourites and the dates you added them;</li>
+  <li>the recovery questions you chose, plus verifiers derived from your PIN and your recovery answers (PBKDF2), encrypted with Android Keystore. Your actual PIN and answers aren't stored.</li>
+  <li>your settings, such as theme, auto-lock timing and whether fingerprint unlock is on.</li>
+</ul>
+<p>The developer never receives this data. It's excluded from Android cloud backup and device-to-device transfer, and it's deleted when you uninstall the app or clear its data.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Fingerprint (biometric)</strong>: used only to unlock the vault if you turn it on. Android handles your fingerprint; the app never sees it.</li>
+  <li><strong>Storage, on Android 8 and 9 only</strong>: used to export copies to your Gallery, or to remove Gallery originals, and only when you ask.</li>
+</ul>
+<p>Photos and videos are chosen with the Android system file picker. The app can't see your Gallery unless you pick files there.</p>
+
+<h2>Sharing</h2>
+<p>Photo Vault doesn't share data with anyone. When you export an item, a copy is saved to your phone's shared Gallery. From there, other apps you use (for example a cloud photo service) may be able to access it under their own policies.</p>
+
+<h2>Children</h2>
+<p>Photo Vault isn't directed at children and doesn't knowingly collect information from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be published at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:psbmnit2002@gmail.com">psbmnit2002@gmail.com</a></p>
+</main>
+</body>
+</html>
